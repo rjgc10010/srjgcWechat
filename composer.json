@@ -1,0 +1,19 @@
+{
+    "name": "rjgc10010/swx",
+    "description": "swx",
+    "authors": [
+        {
+            "name": "rjgc10010",
+            "email": "rjgc10010@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "files":[
+            "src/config.php"
+        ],
+        "psr-4":{
+            "SRjgcWechat\\": "src/SRjgcWechat"
+        }
+    }
+}
